@@ -2,9 +2,27 @@
   box-sizing: border-box;
 } 
 
+a{
+  color: white;
+  text-decoration: none;
+
+}
+
 body{
   background-color: black;  
   color: white;
+  font-size: 24px;
+  line-height: 28px;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.header{
+  height: 100vh;
+}
+
+.container{
   
 }
 
