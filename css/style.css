@@ -23,6 +23,18 @@ body{
 }
 
 .container{
-  
+  padding: 0 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  padding-top: 36p;
+  margin-bottom: 29px;
 }
 
