@@ -102,9 +102,22 @@ body{
   border: none;
   padding: 0;
   font-size: 0;
+  cursor: pointer;
+  outline: none;
 }
 
 .slider .slick-dots .slick-active button{
   background-color: white;
+}
+
+.slider .slick-dots li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider .slick-dots{
+  margin-top: -55px;
+  position: relative;
+  z-index: 6;
 }
 
