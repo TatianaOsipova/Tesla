@@ -5,3 +5,9 @@ module.exports = {
 	SweetModal: SweetModal,
 	SweetModalTab: SweetModalTab
 }
+
+$(function(){
+$('.slider')
+	
+
+});
