@@ -19,7 +19,13 @@ body{
 
 .header{
   height: 100vh;
+  position: absolute;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
 }
+
 
 .container{
   padding: 0 15px;
