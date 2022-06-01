@@ -122,5 +122,14 @@ body{
   max-width: 1200px;
 }
 
+.statistics{
+  margin: 105px 0 100px;
+}
+
+.statistics-items{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 
