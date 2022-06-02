@@ -180,6 +180,20 @@ body{
   font-style: 36px;
 }
 
+.advantages__text{
+  width: 303px;  
+}
+
+.advantages__text ul{
+  list-style: none;
+}
+
+.advantages-descr{
+  max-width: 570px;
+  width: 100%;
+}
+
+
 
 
 
