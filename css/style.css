@@ -75,7 +75,7 @@ body {
   margin-bottom: 25px;
 }
 
-.header-content__btn {
+.button {
   display: inline-block;
   border: 1px solid white;
   padding: 30px 62px;
@@ -83,7 +83,7 @@ body {
   transition: all .5s;
 }
 
-.header-content__btn:hover {
+.button:hover {
   background-color: #770302;
 }
 
@@ -184,7 +184,7 @@ body {
   top: 0;
 }
 
-.advantages__title--bottom{
+.advantages__title--bottom {
   right: 0;
   bottom: 0;
   top: auto;
@@ -203,18 +203,29 @@ body {
   width: 100%;
 }
 
-.design__images{
+.design__images {
   margin-bottom: 100px;
 }
 
-.design-row{
+.design-row {
   display: flex;
   justify-content: space-between;
 }
 
-.design-row__item{
+.design-row__item {
   max-width: 570px;
   width: 100%;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
+.desigh-row__item-num {
+  color: #b70021;
+}
 
+.design-row__item-text {
+  max-width: 430px;
+  padding-top: 25px;
+}
