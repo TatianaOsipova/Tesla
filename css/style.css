@@ -95,7 +95,7 @@ body {
   width: 100%;
 }
 
-.close-btn{
+.close-btn {
   width: 50px;
   height: 50px;
   background-color: #fff;
@@ -103,21 +103,29 @@ body {
   right: 0;
 }
 
-.menu__list{
+.menu__list {
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
-.menu__list ul{
+.menu__list ul {
   list-style: none;
 }
 
-.menu__list a{
+.menu__list a {
   font-size: 48px;
   line-height: 56px;
   font-weight: bold;
+  padding: 30px 25px 14px 0;
+  border-bottom: 3px solid #b70021;
+  display: inline-block;
+  min-width: 368px;
+  transition: all .5s;
+}
 
+.menu__list a:hover {
+  border-color: white;
 }
 
 .slider__item {
