@@ -1,11 +1,12 @@
 $(function(){
   $('.slider').slick({
-    arros: false,
+    arrows: false,
     fade: true,
     autoplay: 3000,
-    dots: true
+    dots: true,
   });
 });
+
 
 
 
