@@ -91,8 +91,12 @@ body {
   background-color: black;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
+}
+
+.menu.active{
+  left: 0;
 }
 
 .container-menu {
@@ -102,7 +106,7 @@ body {
 .close-btn {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: black;
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -113,10 +117,21 @@ body {
   content: "";
   width: 70px;
   height: 2px;
-  background-color: green;
+  background-color: white;
   position: absolute;
+  transform-origin: left;
 
 }
+
+.close-btn::after{
+  transform: rotate(45deg);
+}
+
+.close-btn::before{
+  transform: rotate(-45deg);
+  bottom: -1px;
+}
+
 
 .menu__list {
   height: 100vh;
