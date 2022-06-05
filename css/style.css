@@ -352,10 +352,15 @@ body {
 }
 
 @media(max-width: 930px){
-  .
+  .advantages-inner__row{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .advantages__title{
+    position: static;
+  }
 }
-
-
 
 @media(max-width: 820px) {
   .statistics-items {
