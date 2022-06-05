@@ -365,21 +365,24 @@ body {
     text-align: center;
   }
 
-  .advantages__text{
-    margin: 25px auto; 
+  .advantages__text {
+    margin: 25px auto;
     padding-left: 0;
   }
 
-  .advantages-inner__row--mobile .advantages-descr{
+  .advantages-inner__row--mobile .advantages-descr {
     order: -1;
+    display: flex;
+    flex-direction: column;
   }
 
-  .advantages-inner__row{
+  .advantages-inner__row {
     margin-bottom: 50px;
   }
 
-  
-
+  .advantages__title--bottom {
+    order: -1;
+  }
 }
 
 @media(max-width: 820px) {
