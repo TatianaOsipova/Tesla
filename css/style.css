@@ -430,4 +430,13 @@ body {
   .video {
     margin-bottom: 50px;
   }
+
+  .body {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .advantages__text {
+    width: 100%;
+  }
 }
