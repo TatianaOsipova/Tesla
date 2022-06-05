@@ -344,6 +344,10 @@ body {
 
 }
 
+@media(max-width: 410px){
+  
+}
+
 @media(max-width: 410px) {
   .logo img{
     width: 200px;
