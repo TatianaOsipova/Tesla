@@ -344,7 +344,27 @@ body {
 
 }
 
-@media(max-width: )
+@media(max-width: 410px) {
+  .logo img{
+    width: 200px;
+  }
+  .header-content__title{
+    font-size: 70px;
+    margin-top: 20px;
+    line-height: 85px;
+  }
+  .menu__list a {
+    font-size: 30px;
+    line-height: 44px;
+    padding: 19px 10px 7px 0;
+    display: block;
+    min-width: 100%;
+  }  
+  .menu__list ul{
+    width: 100%;
+  }
+    
+}
 
 
 
