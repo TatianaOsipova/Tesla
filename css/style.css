@@ -97,7 +97,7 @@ body {
   z-index: 7;
 }
 
-.menu.active{
+.menu.active {
   left: 0;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 .close-btn::after,
-.close-btn::before{
+.close-btn::before {
   content: "";
   width: 70px;
   height: 2px;
@@ -125,11 +125,11 @@ body {
 
 }
 
-.close-btn::after{
+.close-btn::after {
   transform: rotate(45deg);
 }
 
-.close-btn::before{
+.close-btn::before {
   transform: rotate(-45deg);
   bottom: -1px;
 }
@@ -160,7 +160,7 @@ body {
   border-color: white;
   color: #b70021;
   transform: scale(1.2);
-  margin-left: 37px;  
+  margin-left: 37px;
 }
 
 .slider__item {
