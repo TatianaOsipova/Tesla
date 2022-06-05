@@ -93,6 +93,7 @@ body {
   top: 0;
   left: -100%;
   width: 100%;
+  transition: all .5s;
 }
 
 .menu.active{
@@ -106,8 +107,8 @@ body {
 .close-btn {
   width: 50px;
   height: 50px;
-  background-color: black;
   position: absolute;
+  top: 31px;
   right: 15px;
   cursor: pointer;
 }
