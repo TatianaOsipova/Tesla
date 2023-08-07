@@ -13,13 +13,6 @@ $(function(){
   $('.close-btn').on('click', function(){
     $('.menu').removeClass('active');
   });
-
-  
-
-
-
-
-
 });
 
 
